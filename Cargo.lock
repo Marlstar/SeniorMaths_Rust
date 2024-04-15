@@ -11,4 +11,9 @@ name = "Maths"
 version = "0.1.0"
 dependencies = [
  "Combinatorics",
+ "Vector",
 ]
+
+[[package]]
+name = "Vector"
+version = "0.1.0"
