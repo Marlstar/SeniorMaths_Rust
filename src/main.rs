@@ -1,10 +1,10 @@
-#![allow(non_snake_case)]
+#![allow(non_snake_case, dead_code)]
+use iced::Sandbox;
 
-use Combinatorics;
-use Vector::{self, *};
+mod combinatorics;
+mod vector;
+use vector::gui as vector_gui;
 
 fn main() {
-    let v1 = Vector2::new();
-    let v2 = Vector2::new();
-    let v3 = v1 + v2;
+
 }
